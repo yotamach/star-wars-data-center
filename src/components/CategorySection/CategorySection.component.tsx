@@ -8,7 +8,6 @@ interface CategorySectionProps {
 
 export const CategorySection = ({ title, items }: CategorySectionProps) => {
     const navigate  = useNavigate();
-
     const getItems = () => items.slice(0, 3).map((item) => <ListItem sx={{ backgroundColor: '#fff' }} key={item.name || item.title}><ListItemText primary={item.name || item.title} /></ListItem>)
     
     return (
