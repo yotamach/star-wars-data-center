@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages": ["./src/pages/index.ts"],
+      "@components": ["./src/components/index.ts"],
+      "@services": ["./src/services/index.ts"],
+      "@providers": ["./src/providers/index.ts"],
+      "@types": ["./src/types/index.ts"],
+      "@utils": ["./src/utils/index.ts"],
+    },
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "types": ["vite/client", "vitest"],
+  },
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ],
+  "compileOnSave": false,
+  "exclude": ["node_modules", "tmp"]
+}
