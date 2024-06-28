@@ -1,5 +1,8 @@
 # Star wars Data Center
 
+## Description
+Star wars data center is application for searching all data about the movie Star Wars
+
 ## Installation
 
 ### Install NVM
@@ -23,7 +26,7 @@
 
 Run `yarn install` or `yarn`
 
-### Packages
+## Packages
 
 1. Node 20.15.0
 2. React 18.3.1
