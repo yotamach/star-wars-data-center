@@ -1,5 +1,9 @@
 # Star wars Data Center
 
+## Description
+
+Star wars data center is application for searching all data about the movie Star Wars
+
 ## Installation
 
 ### Install NVM
