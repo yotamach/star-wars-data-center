@@ -35,4 +35,4 @@ Run `yarn install` or `yarn`
 4. Vite 5.0.0
 5. NX 19.3.2
 6. Material UI 5.15.21
->>>>>>> master
+
